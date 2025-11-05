@@ -26,7 +26,7 @@ repositories:
   utils/msgs/situational_graphs_reasoning_msgs:
     type: git
     url: https://github.com/snt-arg/situational_graphs_reasoning_msgs.git
-    version: main
+    version: feat/snav-ros2
   utils/msgs/situational_graphs_msgs:
     type: git
     url: https://github.com/snt-arg/situational_graphs_msgs.git
@@ -38,5 +38,12 @@ repositories:
   snav_ros2:
     type: git
     url: git@github.com:snt-arg/snav_ros2.git
-    version: ros2     
-   
+    version: ros2
+  spot_bringup:
+    type: git
+    url: https://github.com/snt-arg/spot_bringup.git
+    version: master
+  voxblox_ros2_minimal:
+    type: git
+    url: git@github.com:snt-arg/voxblox_ros2_minimal.git
+    version: master
