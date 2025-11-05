@@ -1,0 +1,28 @@
+procs:
+  s_graph:
+    shell: "bash -c \"source devel/setup.bash && roslaunch s_graphs s_graphs.launch wait_odom_to_map_tf:=false\""
+    autostart: false
+    
+  IS_graph:
+    shell: "bash -c \"source devel/setup.bash && roslaunch is_graphs is_graphs.launch wait_odom_to_map_tf:=false\""
+    autostart: false
+ 
+  carta_rt:
+    shell: "bash -c \"source devel/setup.bash && roslaunch carta carta_rt.launch\""
+    autostart: false
+    
+  carta_sgraphs:
+    shell: "bash -c \"source devel/setup.bash && roslaunch carta carta_sgraphs.launch\""
+    autostart: false
+    
+  navigator_hl:
+    shell: "bash -c \"source devel/setup.bash && roslaunch navigator navigator_hl.launch\""
+    autostart: false
+    
+  navigator_sgraphs:
+    shell: "bash -c \"source devel/setup.bash && roslaunch navigator navigator_sgraphs.launch\""
+    autostart: false
+    
+  rviz:
+    shell: "bash -c \"source devel/setup.bash && rviz -d /home/shaheer/Workspace/snav_ws/src/s-nav/rviz_cfgs/planning.rviz\""
+    autostart: false
