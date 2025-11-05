@@ -1,2 +1,3 @@
 # snav_bringup
-Repository to setup situationally aware path planning from setup to execution on robot
+
+Repository to setup situationally aware path planning from setup to execution on robot.
