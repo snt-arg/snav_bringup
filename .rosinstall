@@ -2,7 +2,7 @@ repositories:
   lidar_situational_graphs:
     type: git
     url: https://github.com/snt-arg/situational_graphs.git
-    version: feature/multi_floor
+    version: ros2-jazzy-multifloor
   utils/fast_gicp:
     type: git
     url: https://github.com/koide3/fast_gicp.git
@@ -34,7 +34,7 @@ repositories:
   is_graphs:
     type: git
     url: https://github.com/snt-arg/situational_graphs.git
-    version: feature/multi_session
+    version: ros2-jazzy-multifloor
   snav_ros2:
     type: git
     url: git@github.com:snt-arg/snav_ros2.git
