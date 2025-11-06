@@ -1,0 +1,49 @@
+repositories:
+  situational_graphs:
+    type: git
+    url: git@github.com:snt-arg/situational_graphs.git
+    version: ros2-jazzy-multifloor
+  dependendency_pkgs/fast_gicp:
+    type: git
+    url: git@github.com:koide3/fast_gicp.git
+    version: master
+  dependendency_pkgs/ndt_omp:
+    type: git
+    url: git@github.com:koide3/ndt_omp.git
+    version: master
+  dependendency_pkgs/reasoning/situational_graphs_reasoning:
+    type: git
+    url: git@github.com:snt-arg/situational_graphs_reasoning.git
+    version: develop
+  dependendency_pkgs/reasoning/situational_graphs_datasets:
+    type: git
+    url: git@github.com:snt-arg/situational_graphs_datasets.git
+    version: develop
+  dependendency_pkgs/reasoning/situational_graphs_wrapper:
+    type: git
+    url: git@github.com:snt-arg/situational_graphs_wrapper.git
+    version: develop
+  dependendency_pkgs/msgs/situational_graphs_reasoning_msgs:
+    type: git
+    url: git@github.com:snt-arg/situational_graphs_reasoning_msgs.git
+    version: feat/snav-ros2
+  dependendency_pkgs/msgs/situational_graphs_msgs:
+    type: git
+    url: git@github.com:snt-arg/situational_graphs_msgs.git
+    version: main
+  is_graphs:
+    type: git
+    url: git@github.com:snt-arg/is_graphs
+    version: ros2-jazzy-multifloor
+  snav_ros2:
+    type: git
+    url: git@github.com:snt-arg/snav_ros2.git
+    version: ros2
+  spot_bringup_utils:
+    type: git
+    url: git@github.com:snt-arg/spot_bringup_utils.git
+    version: master
+  dependendency_pkgs/voxblox_ros2_minimal:
+    type: git
+    url: git@github.com:snt-arg/voxblox_ros2_minimal.git
+    version: master
