@@ -1,32 +1,20 @@
 procs:
-  rosbag_play:
-    shell: 'bash -c "source install/setup.bash && sleep 2 && ros2 bag play /datasets/rosbags/real/gamma/Gamma_Garage"'
-    autostart: false
-
-  s_graph:
-    shell: "bash -c \"source install/setup.bash && ros2 launch lidar_situational_graphs s_graphs_launch.py wait_odom_to_map_tf:=false\""
-    autostart: false
-
   IS_graph:
-    shell: "bash -c \"source install/setup.bash && ros2 launch is_graphs is_graph_launch.py wait_odom_to_map_tf:=false\""
-    autostart: false
- 
-  carta_rt:
-    shell: "bash -c \"source install/setup.bash && ros2 launch carta carta_rt.launch.py\""
+    shell: 'bash -c "source install/setup.bash && ros2 launch is_graphs is_graph_launch.py wait_odom_to_map_tf:=false"'
     autostart: false
 
-  carta_sgraphs:
-    shell: "bash -c \"source install/setup.bash && ros2 launch carta carta_sgraphs.launch.py\""
+  carta_rt:
+    shell: 'bash -c "source install/setup.bash && ros2 launch carta carta_rt.launch.py"'
     autostart: false
-    
+
   navigator_hl:
-    shell: "bash -c \"source install/setup.bash && ros2 launch navigator navigator_hl.launch.py\""
+    shell: 'bash -c "source install/setup.bash && ros2 launch navigator navigator_hl.launch.py"'
     autostart: false
 
   navigator_sgraphs:
-    shell: "bash -c \"source install/setup.bash && ros2 launch navigator navigator_sgraphs.launch.py\""
+    shell: 'bash -c "source install/setup.bash && ros2 launch navigator navigator_sgraphs.launch.py"'
     autostart: false
-    
+
   rviz:
-    shell: "bash -c \"source install/setup.bash && rviz2 -d src/snav_ros2/rviz_cfgs/planning.rviz\""
+    shell: 'bash -c "source install/setup.bash && rviz2 -d src/snav_ros2/rviz_cfgs/planning.rviz"'
     autostart: false

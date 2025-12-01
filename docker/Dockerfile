@@ -106,8 +106,6 @@ WORKDIR /workspace/src/snav_bringup
 
 
 
-
-
 # RUN apt-get update && apt-get install -y \
 #   ros-${ROS_DISTRO}-pcl-ros \
 #   ros-${ROS_DISTRO}-tf2-ros \

@@ -34,7 +34,7 @@ repositories:
   is_graphs:
     type: git
     url: git@github.com:snt-arg/is_graphs
-    version: ros2-jazzy-multifloor
+    version: snav2_jazzy
   snav_ros2:
     type: git
     url: git@github.com:snt-arg/snav_ros2.git
