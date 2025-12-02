@@ -10,7 +10,7 @@ S-Path is a novel hierarchical semantic-geometric planning solution that combine
 * A query in natural form, e.g., 'go from here to the kitchen', can easily be mapped to a semantic-geometric problem.
 * Handling forbidden areas such as closed doors or rooms that should not be traversed is trivial on the semantic layer, whereas it would require map changes on the geometric layer. 
 
-
+![Preview](spath_urchet.png)
 
 ## Setup
 We provide a complete docker environemnt setup to seemlesly setup the S-Path and its dependencies.
