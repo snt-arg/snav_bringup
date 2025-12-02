@@ -5,7 +5,7 @@
 
 Repository to setup situationally aware path planning from setup to execution on robot.
 
-S-Path is a novel hierarchical semantic-geometric planning solution that combines S-Graphs with an informed geometric planner, providing the following benefits over traditional, purely geometric planners:
+S-Path (developed under milestone 3 of euroBIN SATORI project) is a novel hierarchical semantic-geometric planning solution that combines S-Graphs with an informed geometric planner, providing the following benefits over traditional, purely geometric planners:
 * The geometric search can greatly profit from a rough initial guess provided by the semantic layer by virtue of constraining the areas the planner can visit and by providing subgoals toward the final goal.
 * A query in natural form, e.g., 'go from here to the kitchen', can easily be mapped to a semantic-geometric problem.
 * Handling forbidden areas such as closed doors or rooms that should not be traversed is trivial on the semantic layer, whereas it would require map changes on the geometric layer. 
